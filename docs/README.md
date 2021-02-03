@@ -1,4 +1,3 @@
-# 方案中心
+# Solution
 
-> 方案系列
-
+> solution
