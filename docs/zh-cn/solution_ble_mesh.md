@@ -1,4 +1,4 @@
-###BLE Mesh应用框架
+### BLE Mesh应用框架
 
 #### 1、被 Provisioner 配网到LENZE-BLE-MES 网络中的第一个节点的单播地址是不是固定的？
 
