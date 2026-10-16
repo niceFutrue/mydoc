@@ -7,8 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
-    <!-- 主题 -->
-  <!--   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
+  <!-- 主题 -->
+  <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
   <style>
@@ -22,33 +22,33 @@
   <div id="app"></div>
   <script>
       window.$docsify = {
-        name: 'LENZE技术文档', //文档标题
-        nameLink: 'https://lenzetech.com', //点击文档标题后跳转的链接地址
-        repo: '',//仓库地址
+        name: 'LENZE技术文档',              // 文档标题
+        nameLink: 'https://lenzetech.com', // 点击文档标题后跳转的链接地址
+        repo: '',                          // 仓库地址
         logo: '',
         loadNavbar: true,
-        loadSidebar: true, // 加载自定义侧边栏
-        autoHeader: true, //可以根据 _sidebar.md 的内容自动为每个页面增加标题
-        maxLevel: 4, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
-        subMaxLevel: 3, //显示目录
-        mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
+        loadSidebar: true,      // 加载自定义侧边栏
+        autoHeader: true,       // 可以根据 _sidebar.md 的内容自动为每个页面增加标题
+        maxLevel: 4,            // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+        subMaxLevel: 3,         // 显示目录
+        mergeNavbar: true,      // 小屏设备下合并导航栏到侧边栏
         alias: { 
-          '/.*/_sidebar.md': '/_sidebar.md',//防止意外回退
+          '/.*/_sidebar.md': '/_sidebar.md', // 防止意外回退
           '/.*/_navbar.md': '/_navbar.md'
         },
-        themeColor: '#3F51B5', //主题颜色
-        notFoundPage: true, //找不到指定页面时加载_404.md
-        basePath: '', //文档加载的根路径
+        themeColor: '#3F51B5',  // 主题颜色
+        notFoundPage: true,     // 找不到指定页面时加载_404.md
+        basePath: '',           // 文档加载的根路径
         search: {
-          paths: 'auto',// 默认值
+          paths: 'auto',        // 默认值
           placeholder:  {
             '/zh-cn/': '搜索',
             '/': 'search'
           },
           noData: '😒 找不到结果',
-          depth: 6,    // 搜索标题的最大层级, 1 - 6
-          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-        },//增加搜索框
+          depth: 6,             // 搜索标题的最大层级, 1 - 6
+          maxAge: 86400000,     // 过期时间，单位毫秒，默认一天
+        },                      // 增加搜索框
 
         footer: {
           copy: 'Copyright &copy; 2019 💖 </span>',
